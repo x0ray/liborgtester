@@ -3,13 +3,19 @@ package main
 
 /* Expected output:
 david@rat:~/go/src/github.com/x0ray/liborgtester$ liborgtester
-2021/03/14 20:54:40 Command liborgtester version 0.0.2 of 13Mar2021
-2021/03/14 20:54:40 New liborg data: 0xc00018a040
-2021/03/14 20:54:40 Package Lib 0.0.2 Dump
-2021/03/14 20:54:40   Name: Billy
-2021/03/14 20:54:40 Package Lib 0.0.2 Dump
-2021/03/14 20:54:40   Name: Fred
-2021/03/14 20:54:40 Command liborgtester ended
+2021/03/19 16:03:56 Command liborgtester version 0.0.2 of 13Mar2021
+2021/03/19 16:03:56 New liborg data: 0xc000072180
+2021/03/19 16:03:56 Package Lib 0.0.9 Dump
+2021/03/19 16:03:56   Name  : Billy  Tag for lib(0): lib.name
+2021/03/19 16:03:56   Name A:   Tag for NestA(0): nesta.name
+2021/03/19 16:03:56   Name B: Billy_C  Tag for NestB(0):
+2021/03/19 16:03:56   Name C: Billy_C  Tag for NestC(0): nestc.name
+2021/03/19 16:03:56 Package Lib 0.0.9 Dump
+2021/03/19 16:03:56   Name  : Billy  Tag for lib(0): lib.name
+2021/03/19 16:03:56   Name A: Fred_A  Tag for NestA(0): nesta.name
+2021/03/19 16:03:56   Name B: Fred_B  Tag for NestB(0):
+2021/03/19 16:03:56   Name C: Fred_B  Tag for NestC(0): nestc.name
+2021/03/19 16:03:56 Command liborgtester ended
 */
 import (
 	"log"
